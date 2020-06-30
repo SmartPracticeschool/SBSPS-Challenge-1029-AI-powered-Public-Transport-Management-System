@@ -61,8 +61,7 @@ Making use of the onboard vehicle cameras, crowds can be assessed and social dis
 
 An online platform further complements the AI where people can schedule their travel with minimal possible waiting time. The system is versatile and can be largely of utility even in the post-lockdown scenario by providing almost perfectly scheduled timings for the transport with optimal number of vehicles.
 
-![alt text](./IMG.png)
-
+![Block Diagram 1](IMG/BD1.png)
 ## Novelty/Uniqueness
 
 1. AI based scheduling system to replace archaic static scheduling algorithms
