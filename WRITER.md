@@ -44,3 +44,16 @@ Dedicated function calls have been written for quicker and convenient accesses t
 - Check dynamic model
 - Convert normalized data into original scale
 - Visualize the obtained results (with legends etc.)
+
+# Proposed System
+
+### Solution Description
+
+Making use of the onboard vehicle cameras, crowds can be assessed and social distancing can be monitored. The feedback from the camera is then used by an AI model to decide the actual scheduling. 
+
+* By minimizing inconvenience of the travellers based on such earlier record
+* By automatically deciding action and path in case of emergency events
+* By mitigating unforeseen circumstances - eg. large of number of travellers
+
+An online platform further complements the AI where people can schedule their travel with minimal possible waiting time. The system is versatile and can be largely of utility even in the post-lockdown scenario by providing almost perfectly scheduled timings for the transport with optimal number of vehicles.
+
