@@ -48,6 +48,8 @@ Dedicated function calls have been written for quicker and convenient accesses t
 # Proposed System
 
 ### Solution Description
+*[NOTE: Camera part is yet to be implemented]*
+
 
 Making use of the onboard vehicle cameras, crowds can be assessed and social distancing can be monitored. The feedback from the camera is then used by an AI model to decide the actual scheduling. 
 
