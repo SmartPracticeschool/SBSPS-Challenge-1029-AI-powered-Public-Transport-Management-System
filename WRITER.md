@@ -61,6 +61,17 @@ An online platform further complements the AI where people can schedule their tr
 
 For Optimal number of vehicles, there are two modules which will help us in determining the number of buses needed to be scheduled. The first module will allocated/determine the number of bus for whole day in a Time wise manner depending upon the previous data, The second module which dynamic will help us in to increase or decrease the number of buses in real time depending on the crowd in buses. The Number of buses is been counted by the number of crowd and number of sitting capacity of a bus.
 
+![Block Diagram 1](IMG/BD1.png)
+
+## Business/Social Impact
+
+In order to mitigate infection by contact, all the norms of social distancing must be followed. Everyone across the world is biding their time to find a way to contain the spread of the COVID-19 infestation. The global economy is on the verge of one of the biggest recession in recent times due to containment. It is really important to set the economy to motion by providing safer and reliable transportation.
+
+Work-from-home has been a welcome strategy for some business but to consider industries where this is not possible - people are about to lose jobs due to inactivity. In the wake of the COVID-19 pandemic, stepping out of houses and earning livelihood by hand becomes almost unavoidable to prevent people from losing the purchasing power. An economy can keep its cash flow running only when people can keep their jobs.
+
+Not everyone can afford carpooling or travelling by personal vehicles. People have no choice but to turn to public transportation even when it might risk their lives due to social distancing being totally absent. A flexible scheduling system which learns from the historical data while constantly adapting to the growing needs of the people will be a revolution in public transport. The use of already installed onboard cameras can help efficiently monitor physical distancing and traveler count.
+
+This idea has business potential for all the projects which are completed through the public-private partnership are most likely to be the early adopters of the system. The acquired capital can be used for further new improvements in the system and maintaining existing features. But at the paramount, the objective is to provide for efficient transportation all while evading the potential hazard of COVID-19 infestation due to unsatisfactory social distancing.
 
 # Results 
 
