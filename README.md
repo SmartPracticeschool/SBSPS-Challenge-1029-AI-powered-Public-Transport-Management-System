@@ -104,4 +104,29 @@ This idea has business potential for all the projects which are completed throug
 1. Notifying travelers about best-suited traveling options.
 
 
+# Results 
 
+As discussed above there are two modules that are working together for optimal perfromance, 
+### Static Module
+The first module which is been called static module will determine the number of bus for a day depending on the previous data.
+
+![Static Module](./IMG/R1.jpg)
+
+*Raw Feed of the graph is show below where number of bus is given for a given time*
+
+![Static Module Raw](./IMG/R1_1.jpg) 
+
+### Dynamic Module
+This module help us to adjust the number of buses in real time depending on the strenght of passengers.
+
+**Function**: to predict dynamic changes in static timetable
+
+Inputs:
+
+* Data of past 6 hours
+
+Output:
+
+* Crowd prediction for next 2 hours
+
+![Dynamic Module](./IMG/R2.jpg)

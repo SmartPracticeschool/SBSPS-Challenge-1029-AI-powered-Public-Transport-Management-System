@@ -60,3 +60,31 @@ Making use of the onboard vehicle cameras, crowds can be assessed and social dis
 An online platform further complements the AI where people can schedule their travel with minimal possible waiting time. The system is versatile and can be largely of utility even in the post-lockdown scenario by providing almost perfectly scheduled timings for the transport with optimal number of vehicles.
 
 For Optimal number of vehicles, there are two modules which will help us in determining the number of buses needed to be scheduled. The first module will allocated/determine the number of bus for whole day in a Time wise manner depending upon the previous data, The second module which dynamic will help us in to increase or decrease the number of buses in real time depending on the crowd in buses. The Number of buses is been counted by the number of crowd and number of sitting capacity of a bus.
+
+
+# Results 
+
+As discussed above there are two modules that are working together for optimal perfromance, 
+### Static Module
+The first module which is been called static module will determine the number of bus for a day depending on the previous data.
+
+![Static Module](./IMG/R1.jpg)
+
+*Raw Feed of the graph is show below where number of bus is given for a given time*
+
+![Static Module Raw](./IMG/R1_1.jpg) 
+
+### Dynamic Module
+This module help us to adjust the number of buses in real time depending on the strenght of passengers.
+
+**Function**: to predict dynamic changes in static timetable
+
+Inputs:
+
+* Data of past 6 hours
+
+Output:
+
+* Crowd prediction for next 2 hours
+
+![Dynamic Module](./IMG/R2.jpg)
