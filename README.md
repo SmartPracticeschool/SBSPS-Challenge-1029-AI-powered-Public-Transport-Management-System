@@ -62,6 +62,9 @@ Making use of the onboard vehicle cameras, crowds can be assessed and social dis
 An online platform further complements the AI where people can schedule their travel with minimal possible waiting time. The system is versatile and can be largely of utility even in the post-lockdown scenario by providing almost perfectly scheduled timings for the transport with optimal number of vehicles.
 
 ![Block Diagram 1](IMG/BD1.png)
+
+For Optimal number of vehicles, there are two modules which will help us in determining the number of buses needed to be scheduled. The first module will allocated/determine the number of bus for whole day in a Time wise manner, The second module which dynamic will help us in to increase or decrease the number of buses in real time depending on the crowd in buses. The Number of buses is been counted by the number of crowd and number of sitting capacity of a bus.
+
 ## Novelty/Uniqueness
 
 1. AI based scheduling system to replace archaic static scheduling algorithms
