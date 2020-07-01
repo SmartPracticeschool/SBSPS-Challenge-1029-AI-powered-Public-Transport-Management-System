@@ -11,7 +11,7 @@
 ## Problem Statement
 - To create a system to monitor and generate report about active commuters in running buses at any point of time
 - To make accurate estimates about probable timetable on the basis of previously occupied running time data
-- To compensate for unforseen changes in schedule eg. due to festival, national holidays or civil protests
+- To compensate for unforeseen changes in schedule eg. due to festival, national holidays or civil protests
 
 ## Prerequisite
 - Machine Learning tools
@@ -36,11 +36,11 @@
 ## Executable elements
 Dedicated function calls have been written for quicker and convenient accesses to
 - Schedule for a given day
-- Analyse special events with potential to affect planned schedule
+- Analyze special events with potential to affect planned schedule
 - Predict static time table for transport mobiles
 - Clean data (exclusive for dynamic model)
 - Make normalization
-- Predict time-series for bus quantity and timedata
+- Predict time-series for bus quantity and time data
 - Check dynamic model
 - Convert normalized data into original scale
 - Visualize the obtained results (with legends etc.)
@@ -53,9 +53,9 @@ Dedicated function calls have been written for quicker and convenient accesses t
 
 Making use of the onboard vehicle cameras, crowds can be assessed and social distancing can be monitored. The feedback from the camera is then used by an AI model to decide the actual scheduling. 
 
-* By minimizing inconvenience of the travellers based on such earlier record
+* By minimizing inconvenience of the travelers based on such earlier record
 * By automatically deciding action and path in case of emergency events
-* By mitigating unforeseen circumstances - eg. large of number of travellers
+* By mitigating unforeseen circumstances - eg. large of number of travelers
 
 An online platform further complements the AI where people can schedule their travel with minimal possible waiting time. The system is versatile and can be largely of utility even in the post-lockdown scenario by providing almost perfectly scheduled timings for the transport with optimal number of vehicles.
 
@@ -72,17 +72,25 @@ Work-from-home has been a welcome strategy for some business but to consider ind
 Not everyone can afford carpooling or travelling by personal vehicles. People have no choice but to turn to public transportation even when it might risk their lives due to social distancing being totally absent. A flexible scheduling system which learns from the historical data while constantly adapting to the growing needs of the people will be a revolution in public transport. The use of already installed onboard cameras can help efficiently monitor physical distancing and traveler count.
 
 This idea has business potential for all the projects which are completed through the public-private partnership are most likely to be the early adopters of the system. The acquired capital can be used for further new improvements in the system and maintaining existing features. But at the paramount, the objective is to provide for efficient transportation all while evading the potential hazard of COVID-19 infestation due to unsatisfactory social distancing.
-## Implementaition in real life 
+## Implementation in real life 
 
 To use this solution in real we would need a database of every route and the number passenger in an hourly base, with the total capacity of the bus. With this data, our static module can predict the number bus to be deployed in the given hour by predicting the number of passengers for a route. By this, the bus depo/department can be prepared and can provide the optimal service where there will be less trouble for the passenger and less crowd in the bus. The prediction can help to schedule the timing of the bus which can be shared in an app or website where passengers can follow up for convince.    
 
 Also, we would need a system to get the live count of the passengers on the bus. This will help our dynamic module to make changes in the number of buses if there is some random increase/decrease in the number of passengers. This will work on the data of the last 6 hours' strength of the passenger to determine if any changes are need or not.
 
+**This System can be used also in local train scheduling** 
+
 ## Advantages 
-*
+* Our AI can predict the crowd and schedule things accordingly
+* The Prediction help the passenger to know the availability of a bus
+* Sudden Increase or Decrease of passenger, AI optimize the number of bus accordingly
+* To have limited people in bus, which will help us to maintain the social distaining  
+* This system can be used to schedule other public transportation like Local trains 
+* It can help people to schedule their travels
+* System help to optimize and avoid wasting resources  
 # Results 
 
-As discussed above there are two modules that are working together for optimal perfromance, 
+As discussed above there are two modules that are working together for optimal performance, 
 ### Static Module
 The first module which is been called static module will determine the number of bus for a day depending on the previous data.
 
@@ -93,7 +101,7 @@ The first module which is been called static module will determine the number of
 ![Static Module Raw](./IMG/R1_1.jpg) 
 
 ### Dynamic Module
-This module help us to adjust the number of buses in real time depending on the strenght of passengers.
+This module help us to adjust the number of buses in real time depending on the strength of passengers.
 
 **Function**: to predict dynamic changes in static timetable
 
