@@ -72,7 +72,14 @@ Work-from-home has been a welcome strategy for some business but to consider ind
 Not everyone can afford carpooling or travelling by personal vehicles. People have no choice but to turn to public transportation even when it might risk their lives due to social distancing being totally absent. A flexible scheduling system which learns from the historical data while constantly adapting to the growing needs of the people will be a revolution in public transport. The use of already installed onboard cameras can help efficiently monitor physical distancing and traveler count.
 
 This idea has business potential for all the projects which are completed through the public-private partnership are most likely to be the early adopters of the system. The acquired capital can be used for further new improvements in the system and maintaining existing features. But at the paramount, the objective is to provide for efficient transportation all while evading the potential hazard of COVID-19 infestation due to unsatisfactory social distancing.
+## Implementaition in real life 
 
+To use this solution in real we would need a database of every route and the number passenger in an hourly base, with the total capacity of the bus. With this data, our static module can predict the number bus to be deployed in the given hour by predicting the number of passengers for a route. By this, the bus depo/department can be prepared and can provide the optimal service where there will be less trouble for the passenger and less crowd in the bus. The prediction can help to schedule the timing of the bus which can be shared in an app or website where passengers can follow up for convince.    
+
+Also, we would need a system to get the live count of the passengers on the bus. This will help our dynamic module to make changes in the number of buses if there is some random increase/decrease in the number of passengers. This will work on the data of the last 6 hours' strength of the passenger to determine if any changes are need or not.
+
+## Advantages 
+*
 # Results 
 
 As discussed above there are two modules that are working together for optimal perfromance, 
