@@ -1,5 +1,3 @@
-# SBSPS-Challenge-1029-AI-powered-Public-Transport-Management-System
-
 # AI-powered-Public-Transport-Management-System
 
 ## Project ID  `#1029`
@@ -61,18 +59,9 @@ Making use of the onboard vehicle cameras, crowds can be assessed and social dis
 
 An online platform further complements the AI where people can schedule their travel with minimal possible waiting time. The system is versatile and can be largely of utility even in the post-lockdown scenario by providing almost perfectly scheduled timings for the transport with optimal number of vehicles.
 
-![Block Diagram 1](IMG/BD1.png)
-
 For Optimal number of vehicles, there are two modules which will help us in determining the number of buses needed to be scheduled. The first module will allocated/determine the number of bus for whole day in a Time wise manner depending upon the previous data, The second module which dynamic will help us in to increase or decrease the number of buses in real time depending on the crowd in buses. The Number of buses is been counted by the number of crowd and number of sitting capacity of a bus.
 
-## Novelty/Uniqueness
-
-1. AI based scheduling system to replace archaic static scheduling algorithms
-1. Social distancing compliance and crowd monitoring with live camera feed
-1. Self-adapting AI - learns from every travel to improve traveler experience
-1. Online platform for booking schedule by regular travelers
-1. Appropriate response to emergency events like protests and road blocks
-1. Efficient enough to use existing hardware devices and active network
+![Block Diagram 1](IMG/BD1.png)
 
 ## Business/Social Impact
 
@@ -83,26 +72,6 @@ Work-from-home has been a welcome strategy for some business but to consider ind
 Not everyone can afford carpooling or travelling by personal vehicles. People have no choice but to turn to public transportation even when it might risk their lives due to social distancing being totally absent. A flexible scheduling system which learns from the historical data while constantly adapting to the growing needs of the people will be a revolution in public transport. The use of already installed onboard cameras can help efficiently monitor physical distancing and traveler count.
 
 This idea has business potential for all the projects which are completed through the public-private partnership are most likely to be the early adopters of the system. The acquired capital can be used for further new improvements in the system and maintaining existing features. But at the paramount, the objective is to provide for efficient transportation all while evading the potential hazard of COVID-19 infestation due to unsatisfactory social distancing.
-
-## Technology Stack
-
-1. TensorFlow 2.0+ 
-1. Python 3.7+
-1. IBM Watson Studio
-1. IBM Cloud 
-1. IBM Db2
-1. IBM Watson Visual Recognition
-1. Flask
-
-## Scope of work
-1. To build the AI system described in the solution.
-    * Determining the active traveling hours of the day.
-    * Consulting previous travel records.
-    * Processing camera feeds so as to include in decision making.
-1. Camera feed processing to make sure social distancing is maintained.
-1. The prototype of the online platform for displaying schedule
-1. Notifying travelers about best-suited traveling options.
-
 ## Implementation in real life 
 
 To use this solution in real we would need a database of every route and the number passenger in an hourly base, with the total capacity of the bus. With this data, our static module can predict the number bus to be deployed in the given hour by predicting the number of passengers for a route. By this, the bus depo/department can be prepared and can provide the optimal service where there will be less trouble for the passenger and less crowd in the bus. The prediction can help to schedule the timing of the bus which can be shared in an app or website where passengers can follow up for convince.    
@@ -119,7 +88,6 @@ Also, we would need a system to get the live count of the passengers on the bus.
 * This system can be used to schedule other public transportation like Local trains 
 * It can help people to schedule their travels
 * System help to optimize and avoid wasting resources  
-
 # Results 
 
 As discussed above there are two modules that are working together for optimal performance, 
